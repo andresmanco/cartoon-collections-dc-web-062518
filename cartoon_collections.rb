@@ -20,7 +20,7 @@ end
 def find_the_cheese(food)
   cheese_types = ["cheddar", "gouda", "camembert"]
   b = false
-  cheese_types.each |c|
+  cheese_types.each do |c|
     if food.find (c)
       b = true
     end
