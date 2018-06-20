@@ -19,7 +19,11 @@ end
 
 def find_the_cheese(food)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  
-  food.find (cheese_types[])
-    
+  b = false
+  cheese_types.each |c|
+    if food.find (c)
+      b = true
+    end
+  end
+  b
 end
