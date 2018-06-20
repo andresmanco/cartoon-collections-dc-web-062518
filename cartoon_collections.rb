@@ -23,6 +23,5 @@ def find_the_cheese(food)
   cheese_types.each do |c|
     b = food.find(c)
       
-    end
   end
 end
