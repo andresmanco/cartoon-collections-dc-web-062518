@@ -21,7 +21,7 @@ def find_the_cheese(food)
   cheese_types = ["cheddar", "gouda", "camembert"]
   b = nil
   cheese_types.each do |c|
-    b = food.find(c)
+    return b = food.find(c)
       
   end
 end
